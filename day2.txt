@@ -1,0 +1,26 @@
+Document object :
+
+
+* It represents any HTML document or web page that is loaded in the browser.
+* It is loaded inside the window.
+* It is the object of window property.
+* All the tags, elements with attributes in HTML are part of the document.
+* We can access the document from a window using the window.document
+* The document is part of BOM (browser object model)t and DOM(document object model)
+* Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. Document.title
+* Syntax : document.propertyname;
+* Example: document.title : will return the title of the document
+
+
+Window object :
+
+
+* It represents a browser window or frame that displays the contents of the webpage.
+* It is the very first object that is loaded in the browser
+* It is the object of the browser
+* Global objects, functions, and variables of javascript are members of the window object
+* We can access the window from the window by using window.window
+* The document is part of BOM  but not DOM
+* Properties of the window object cannot be accessed by the document object
+* Syntax : window.propertyname;
+* Example: window.innerheight : will return the height of the content area of the document
