@@ -1,0 +1,58 @@
+Activity 1
+
+
+Http is a HyperText Transfer Protocol. It is used for client-server communication purposes, by using http we send http request to server and then server send http respond to user.
+
+
+HTTP 1.1
+* It was created in 1997.
+* http 1.1 transfer all the requests and respond in plain text.
+* It uses request resource inlining for getting multiple pages.
+* It allows one by one TCP once to get block (head of line blocking) then remaining waiting for previews TCP connection.
+* It compresses data by itself 
+ HTTP 2
+
+
+*  It was created in 2015. 
+*  http 2 transfer all the requests and respond in binary format.
+*  It uses PUSH FRAME for getting multiple pages. 
+*  It allows multiplexing, so one TCP connection is enough for multiple requests. 
+*  It compresses data by using Hpack
+
+
+  
+
+
+
+
+
+2. Object :
+
+
+Objects are data types and form the blocks in JavaScript. Object is a collection of properties and association between key and value.
+
+
+Internal Representation of Object :
+
+
+* objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs.
+* objects are stored as a collection of key-value pairs, where the keys are the property names and the values can be   data or references to functions.
+* These keys can be variables or functions and are called properties and methods, respectively.
+
+
+Object is person , Object have { }- open and close curly brace to have their key : value . In key we use to have that person – name , age , address etc. and value we use to represent the Sangavi , 25 , Trichy
+
+
+Var person(){
+
+
+Name : Sangavi
+
+
+Age : 25
+
+
+Address : Trichy
+
+
+}
