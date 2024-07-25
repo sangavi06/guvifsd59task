@@ -1,2 +1,154 @@
 day 5
-https://docs.google.com/document/d/137yNaGb0AmyV4WU8rcp38-gBFNbiqUhVgpymMKQAguQ/edit
+Question 1:
+
+
+A)
+class movie{
+    constructor(title,studio,rating){
+        this.title=title;
+        this.studio=studio;
+        this.rating=rating;
+    }
+
+}
+var movie1=new movie("maharshi","ramstudio","pg13");
+var movie2=new movie('bahubali','studio','r');
+console.log(movie1,movie2);
+
+B)
+
+class movie{
+    constructor(title,studio,rating='PG'){
+        this.title=title;
+        this.studio=studio;
+        this.rating=rating;
+    }
+
+D)
+
+}
+var movie1=new movie("kgf","studio");
+var movie2=new movie('svp2','A1studio','r');
+console.log(movie1,movie2);
+
+class movie{
+    constructor(title,studio,rating='PG'){
+        this.title=title;
+        this.studio=studio;
+        this.rating=rating;
+    }
+
+}
+var movie1=new movie('Casino Royale','Eon Productions','PG13');
+
+console.log(movie1)
+ 
+
+
+
+
+2)converting uml class diagram t= class.
+
+class circle{
+    constructor(radius,color){
+        this.radius=radius;
+        this.color=color;
+        
+    }
+    circle(){
+        console.log("this is circle")
+    }
+    circle(radius){
+        console.log("method overriding")
+    }
+    circle(radius,color){
+        console.log(this.radius,this.color+'final method overriding which accepts by javascripot')
+    }
+    getradius(){
+        console.log(" radius of the circle is "+this.radius)
+    }
+    setradius(newradius){
+       this.radius=newradius;
+
+    }
+    getcolor(){
+        console.log(' color of the circle is '+this.color)
+    }
+
+    setcolor(newcolor){
+        this.color=newcolor;
+    }
+    getarea(){
+        console.log('area of circle is '+(Math.PI*Math.pow(this.radius,2)))
+    }
+    getcircumference(){
+        console.log(' circumference of a circle is '+(2*Math.PI*this.radius))
+    }
+
+} 
+let circle1=new circle(1,"grey");
+
+circle1.getradius();
+circle1.setradius(5)
+circle1.getradius();
+circle1.getcolor();
+circle1.setcolor("White");
+circle1.getcolor();
+circle1.getarea();
+circle1.getcircumference();
+
+
+
+
+
+
+Question 3:
+
+Write a “person” class to hold all the details.
+.
+
+
+
+class Person {
+
+    constructor(name, age, occupation) {
+    
+    this.name = name;
+    
+    this.age = age;
+    
+    this.occupation = occupation;
+    
+    }
+    
+    }
+    
+    const person = new Person("Sangavi", 25, "Software Developer");
+    
+    console.log("Name:", person.name);
+    
+    console.log("Age:", person.age);
+    
+    console.log("Occupation:", person.occupation);
+
+
+Question 4:
+
+write a class to calculate the Uber price
+
+class Uber {
+    static BaseFare = 10;
+    static CostPerMile = 20;
+    static CostPerMinute = 5;
+    static BookingFee = 5;
+    constructor(time=1,mile=1){
+        this.time=time;
+        this.mile=mile;
+    }
+    totalPrice(time=this.time , mile=this.mile){
+        console.log(`the total price is ${(Uber.BaseFare)+(Uber.BookingFee)+((Uber.CostPerMinute)*time)+((Uber.CostPerMile)*mile)} only`);
+    }
+}
+let car = new Uber();
+car.totalPrice(15,10);
+
