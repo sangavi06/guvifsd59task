@@ -1,0 +1,78 @@
+.form-div{
+    height: auto;
+} 
+.formLabel{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.smText{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.rating-color{
+    color: gold;
+    font-size: 20px;
+}
+table th, table td{
+    padding: 5px !important;
+}
+th{
+    border-style: none !important;
+}
+.form-left-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.tableSmText1{
+    width: 130px;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+.tableSmText{
+    width: 104px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+.radioDiv{
+    height: 47px;
+}
+.radioDiv1{
+    height: 22px;
+}
+@media screen and (max-width: 1024px) {
+    .radioDiv{
+        height: 70px;
+    }
+    .radioDiv1{
+        height: 47px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .radioDiv{
+        height: 47px;
+    }
+    .radioDiv1{
+        height: 22px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .radioDiv{
+        height: 77px;
+    }
+    .radioDiv1{
+        height: 42px;
+    }
+}
+.btn{
+    border: 1px solid gray !important;
+    border-radius: 0%;
+    outline-offset: 2px;
+    font-weight: 500 !important;
+}

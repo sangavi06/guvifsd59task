@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey_Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <div class="row bg-dark m-0">
+        <h1 class="h3 text-center text-white text-uppercase my-2">
+          Survey Form
+        </h1>
+        <div class="m-auto mb-5 col-lg-7 bg-white form-div">
+          <form class="my-3 mb-3 mx-1">
+            <div
+              class="form-group mb-2 col-lg-7 d-flex justify-content-md-start"
+            >
+              <div class="form-group w-50 me-3">
+                <label for="inputNameF" class="formLabel"
+                  >Name <span class="text-danger">*</span></label
+                >
+                <input
+                  type="text"
+                  class="form-control w-100 py-1 px-2"
+                  id="inputNameF"
+                  placeholder="First Name"
+                />
+                <div class="smText">First</div>
+              </div>
+              <div class="form-group w-50">
+                <label for="inputNameL"></label>
+                <input
+                  type="text"
+                  class="form-control w-100 py-1 px-2"
+                  id="inputNameL"
+                  placeholder="Last Name"
+                />
+                <div class="smText">Last</div>
+              </div>
+            </div>
+            <div class="form-group mb-2 col-lg-7">
+              <label for="inputEmail" class="formLabel"
+                >Email <span class="text-danger">*</span></label
+              >
+              <input
+                type="email"
+                class="form-control w-100 py-1 px-2"
+                id="inputEmail"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group mb-2 col-lg-5">
+              <label class="formLabel"
+                >Your Experience <span class="text-danger">*</span></label
+              >
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="ratings">
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                  <i class="fa fa-star rating-color"></i>
+                </div>
+              </div>
+            </div>
+            <div class="smText col-lg-7 mb-2">
+              Overall, how would you rate you experience with us?
+            </div>
+            <div class="form-group mb-2 col-lg-12">
+              <label class="formLabel"
+                >How satisfied are you with
+                <span class="text-danger">*</span></label
+              >
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th class="tableSmText1"></th>
+                      <th class="tableSmText text-center">Very Unsatisfied</th>
+                      <th class="tableSmText text-center">Unsatisfied</th>
+                      <th class="tableSmText text-center">Neutral</th>
+                      <th class="tableSmText text-center">Satisfied</th>
+                      <th class="tableSmText text-center">Very Satisfied</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <label
+                          class="form-check-label form-left-label"
+                          for="purchaseRadio"
+                        >
+                          Purchase
+                        </label>
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="purchaseCheck"
+                          id="purchaseRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="purchaseCheck"
+                          id="purchaseRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="purchaseCheck"
+                          id="purchaseRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="purchaseCheck"
+                          id="purchaseRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="purchaseCheck"
+                          id="purchaseRadio"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label
+                          class="form-check-label form-left-label"
+                          for="serviceRadio"
+                        >
+                          Service
+                        </label>
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="serviceCheck"
+                          id="serviceRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="serviceCheck"
+                          id="serviceRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="serviceCheck"
+                          id="serviceRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="serviceCheck"
+                          id="serviceRadio"
+                        />
+                      </td>
+                      <td class="text-center">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="serviceCheck"
+                          id="serviceRadio"
+                        />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label
+                          class="form-check-label form-left-label"
+                          for="companyRadio"
+                        >
+                          Company Overall
+                        </label>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="companyCheck"
+                            id="companyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="companyCheck"
+                            id="companyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="companyCheck"
+                            id="companyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="companyCheck"
+                            id="companyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="companyCheck"
+                            id="companyRadio"
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="form-group mb-2 col-lg-12">
+              <label class="formLabel"
+                >How likely are you to <span class="text-danger">*</span></label
+              >
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th class="tableSmText1"></th>
+                      <th class="tableSmText text-center">Very Unlikely</th>
+                      <th class="tableSmText text-center">Unlikely</th>
+                      <th class="tableSmText text-center">Neutral</th>
+                      <th class="tableSmText text-center">Likely</th>
+                      <th class="tableSmText text-center">Very Likely</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <label
+                          class="form-check-label form-left-label"
+                          for="buyRadio"
+                        >
+                          Buy from us again
+                        </label>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="buyCheck"
+                            id="buyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="buyCheck"
+                            id="buyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="buyCheck"
+                            id="buyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="buyCheck"
+                            id="buyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv1 justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="buyCheck"
+                            id="buyRadio"
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label
+                          class="form-check-label form-left-label"
+                          for="productRadio"
+                        >
+                          Recommend our product to others
+                        </label>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="productCheck"
+                            id="productRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="productCheck"
+                            id="productRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="productCheck"
+                            id="productRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="productCheck"
+                            id="productRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="productCheck"
+                            id="productRadio"
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label
+                          class="form-check-label form-left-label"
+                          for="RecompanyRadio"
+                        >
+                          Recommend our company to others
+                        </label>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="RecompanyCheck"
+                            id="RecompanyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="RecompanyCheck"
+                            id="RecompanyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="RecompanyCheck"
+                            id="RecompanyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="RecompanyCheck"
+                            id="RecompanyRadio"
+                          />
+                        </div>
+                      </td>
+                      <td>
+                        <div
+                          class="d-flex radioDiv justify-content-center align-items-center"
+                        >
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="RecompanyCheck"
+                            id="RecompanyRadio"
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="form-group mb-3 col-lg-12">
+              <label class="formLabel" for="formTextarea"
+                >Additional comments or suggestions
+              </label>
+              <textarea
+                class="form-control"
+                id="formTextarea"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-light">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
