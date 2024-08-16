@@ -1,0 +1,158 @@
+
+.headDiv{
+    /* border: 1px solid red; */
+  }
+  .box2{
+  margin-top: 20px;
+      /* border: 1px solid blue; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* margin: auto !important; */
+  }
+  .span1{
+    
+      margin-right: 20px;
+  }
+  
+  .div1{
+  
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      width: 85%;
+      height: 60vh;
+      border: 2px solid black;
+      position: relative;
+  }
+  .subDiv1{
+  
+      /* border: 2px solid maroon; */
+      width: 30%;
+      height: 78%;
+      position: absolute;
+      top: 3px;
+      left: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .im{
+      border: 1px solid black;
+      width: 60%;
+      height: 80%;
+      border-radius: 70%;
+      object-fit: cover;
+  }
+  
+  .subDiv2{
+      /* border: 2px solid rgb(3, 33, 232); */
+      width: 65%;
+      height: 80%;
+      position: absolute;
+      top: 6%;
+      left: 33%;
+  }
+  .one{
+      width: 40%;
+      /* background-color: aqua; */
+  }
+  .ip{
+     /* margin:0px 14px 0px 0px !important; */
+     /* border: 1px solid red; */
+  
+  }
+  .sel{
+      /* border: 1px solid red; */
+  
+  }
+  .two{
+      width:29%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      /* border: 1px solid blue; */
+  }
+  .selDiv{
+      /* border: 1px solid blue; */
+      width: 70%;
+  }
+  .but{
+      /* border: 1px solid red; */
+      position: absolute;
+      width: 60%;
+      bottom: 0px;
+      height: 10%;
+      right: 20px;
+  }
+  
+  @media screen and (min-width: 425px) and (max-width: 768px){
+  
+  
+      .div1{
+  
+          display: flex !important;
+          flex-direction: column !important;
+          width: 100%;
+          /* height: 90%; */
+          border: 2px solid green;
+          flex-wrap: wrap;
+          position: relative;
+          box-sizing: border-box;
+      }
+      .subDiv1{
+      
+          /* border: 2px solid maroon; */
+          width: 30%;
+          height: 200px;
+          position: absolute;
+          top: 32px;
+          left: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+  
+      .subDiv2{
+          /* border: 2px solid rgb(3, 33, 232); */
+          width: 65%;
+          height: 90%;
+          position: absolute;
+          top: 6%;
+          left: 33%;
+      }
+  
+      .im{
+          border: 1px solid black;
+          /* width: 100%; */
+          height: 100%;
+          border-radius: 50%;
+          object-fit: cover;
+      }
+  }
+  @media screen and (min-width: 300px) and (max-width: 425px){
+  
+  
+      .subDiv2{
+          /* border: 2px solid rgb(3, 33, 232); */
+          width: 65%;
+          height: 100%;
+          position: absolute;
+          top: 0px;
+          right: 0px !important;
+      }
+      .subDiv1{
+      
+          /* border: 2px solid maroon; */
+          width: 40%;
+          height: 200px;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+  
+  }
