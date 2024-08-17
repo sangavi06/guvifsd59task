@@ -1,0 +1,19 @@
+.showcase-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.showcase-img {
+    background-size: cover;
+    background-position: center;
+    min-height: 300px; /* Adjust based on your design needs */
+}
+
+.showcase-text {
+    padding: 2rem;
+}
+
+.text-content {
+    max-width: 500px; /* Adjust based on your design needs */
+    margin: auto;
+}

@@ -1,0 +1,29 @@
+#signup{
+    background-image: url("https://cdn.wallpapersafari.com/98/57/eE1jmh.jpg");
+    padding: 100px;
+
+}
+.call-to-action {
+    padding: 60px 0;
+    background-color: #343a40; /* Or any other background color you prefer */
+}
+
+.call-to-action .form-control {
+    margin-bottom: 10px;
+}
+
+.call-to-action .btn {
+    margin-top: 10px;
+}
+
+.call-to-action .invalid-feedback {
+    display: none;
+}
+
+.call-to-action .form-control:invalid + .invalid-feedback {
+    display: block;
+}
+
+.call-to-action .d-none {
+    display: none;
+}
